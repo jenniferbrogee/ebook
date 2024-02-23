@@ -144,7 +144,7 @@ a img {
 #book-content {
   overflow-y: auto;
   overflow-x: hidden;
-  max-width: 40em;
+  max-width: 60em; /* was 40em - jlb*/
   margin: auto;
   /* Generic font for the book information */
   /* Size ~> 25pt */
@@ -231,8 +231,9 @@ a img {
   #book-content h3 {
     font-size: 1.3em; }
   #book-content p, #book-content ul, #book-content ol {
-    font-family: Georgia, serif;
-    font-size: 0.89em;
+    font-family: Georgia, serif;    
+     /*previous - jlb: font-size: 0.89em;*/
+	font-size: 1.0em;
     line-height: 1.83em;
     padding-top: 6px;
     padding-bottom: 6px; }
