@@ -144,7 +144,7 @@ a img {
 #book-content {
   overflow-y: auto;
   overflow-x: hidden;
-  max-width: 40em;
+  max-width: 60em; /* was 40em - jlb*/
   margin: auto;
   /* Generic font for the book information */
   /* Size ~> 25pt */
@@ -232,7 +232,8 @@ a img {
     font-size: 1.3em; }
   #book-content p, #book-content ul, #book-content ol {
     font-family: Georgia, serif;
-    font-size: 0.89em;
+    /*previous - jlb: font-size: 0.89em;*/
+	font-size: 1.0em;    
     line-height: 1.83em;
     padding-top: 6px;
     padding-bottom: 6px; }
@@ -320,7 +321,7 @@ a img {
         float: none; }
       #book-content .learning_objectives .figure p, #book-content .learning_objectives .informalfigure p, #book-content .key_takeaways .figure p, #book-content .key_takeaways .informalfigure p, #book-content .exercises .figure p, #book-content .exercises .informalfigure p, #book-content .exercises-math .figure p, #book-content .exercises-math .informalfigure p, #book-content .qandaset .figure p, #book-content .qandaset .informalfigure p, #book-content .callout .figure p, #book-content .callout .informalfigure p {
         font-style: italic;
-        font-size: 0.8em; }
+        font-size: 1.3em; } /*jlb - updated from 0.8em*/
       #book-content .learning_objectives .figure .title, #book-content .learning_objectives .informalfigure .title, #book-content .key_takeaways .figure .title, #book-content .key_takeaways .informalfigure .title, #book-content .exercises .figure .title, #book-content .exercises .informalfigure .title, #book-content .exercises-math .figure .title, #book-content .exercises-math .informalfigure .title, #book-content .qandaset .figure .title, #book-content .qandaset .informalfigure .title, #book-content .callout .figure .title, #book-content .callout .informalfigure .title {
         background-color: inherit;
         /* avoid blue background */
